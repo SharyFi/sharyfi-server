@@ -1,0 +1,6 @@
+@SharyFi.Server_HostAddress = http://localhost:5002
+
+GET {{SharyFi.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
