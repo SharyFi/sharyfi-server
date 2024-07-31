@@ -3,9 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharyFi.Server", "SharyFi.Server\SharyFi.Server.csproj", "{51E6C4DA-8D92-4835-8709-E3B3EB72A6AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharyFi.Server", "SharyFi.Server\SharyFi.Server.csproj", "{51E6C4DA-8D92-4835-8709-E3B3EB72A6AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharyFi.Server.Tests", "SharyFi.Server.Tests\SharyFi.Server.Tests.csproj", "{1D39E6DA-DE3E-4CBD-954D-5DA807777FE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharyFi.Server.Tests", "SharyFi.Server.Tests\SharyFi.Server.Tests.csproj", "{1D39E6DA-DE3E-4CBD-954D-5DA807777FE0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F8B86454-B0C2-4FBD-B379-684CF2EB8028}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
